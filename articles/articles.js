@@ -10,10 +10,10 @@ fetch("articles.json")
       card.href = article.file;
 
       card.innerHTML = `
-                <h2>${article.title}</h2>
-                <p>Author: ${article.author}</p>
-                <p>Date: ${article.date}</p>
-                <p>Tags: ${article.tags.join(", ")}</p>
+                <h2 class="article-title">${article.title}</h2>
+                <p class="aricle-info">Author: ${article.author}</p>
+                <p class="aricle-info">Date: ${article.date}</p>
+                <p class="aricle-info">Tags: ${article.tags.join(", ")}</p>
             `;
 
       container.appendChild(card);
