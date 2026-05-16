@@ -64,6 +64,8 @@ body {
     text-align: center;
 }
 
+// here is the copy end
+
 .logo {
     margin-top: 70px;
     width: 256px;
@@ -85,12 +87,33 @@ body {
 
 .card-grid {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0 2rem;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px 0px;
+    flex-wrap: nowrap;
 }
 
 .card {
-    width: 220px;
-    background-color: rgba(55, 55, 55, 0.15);
+    width: 400px;
+    background-color: rgba(55, 55, 55, 0.25);
+    border-radius: 50px;
+}
+
+.card-title {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.card-text {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.7;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 350;
 }
