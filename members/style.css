@@ -100,14 +100,14 @@ body {
 }
 
 .lunara-pfp {
-    width: 300px;
+    width: 200px;
     border-radius: 12px;
 }
 
 .lunara span {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 100px;
+    font-size: 50px;
     font-weight: 200;
     margin-top: 5px;
 }
