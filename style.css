@@ -117,3 +117,46 @@ body {
     font-family: "Inter", sans-serif;
     font-weight: 350;
 }
+
+.button-grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.button-rsc {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin-left: 720px;
+    margin-right: 720px;
+    border-radius: 5px;
+    background-color: rgba(120, 120, 120, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    transition: 0.2s ease;
+}
+
+.button-rsc:hover {
+    transform: scale(1.05);
+    background-color: rgba(150, 150, 150, 1);
+}
+
+.button-apply {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 5px;
+    background-color: rgb(37, 105, 63);
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.button-apply:hover {
+    transform: scale(1.05);
+    background-color: rgb(45, 133, 79);
+}
